@@ -1,0 +1,311 @@
+﻿
+
+<link href="~/assets/css/bootstrap-switch.css" rel="stylesheet" />
+<link rel="stylesheet" href="~/assets/css/sweetalert.css">
+<div id="myModal2" class="modal fade modal_add" role="dialog">
+    <div class="modal-dialog modal-lg" style="    margin: 80px auto;margin-bottom: 0px">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" style="padding:10px;position: absolute;top:0px;right:0px;">&times;</button>
+                <div class="row">
+                    <div class="col-md-12 p0">
+                        <div class="col-md-12 user_form_section">
+                            <div class="col-md-6 p10">
+                                <div class="col-md-12">Email:<span class="requiredred">*</span></div>
+                                <div class="col-md-12">
+                                    <input type="hidden" id="hdnId" value="0" />
+                                    <input type="text" id="txtEmail" class="form-control custom required" value="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 p10">
+                                <div class="col-md-12 p0">Password:<span class="requiredred">*</span></div>
+                                <div class="col-md-12 p0">
+                                    <input type="password" id="txtPassword" class="form-control custom required" value="">
+                                </div>
+                            </div>
+                            <div class="col-md-12 p10">
+                                <div class="col-md-12">Address:<span class="requiredred">*</span></div>
+                                <div class="col-md-12">
+                                    <textarea id="txtAddress" class="form-control custom required" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Select Country: <span class="requiredred">*</span></div>
+                                    <input type="hidden" id="hdncountryid" />
+                                    <input type="text" id="txtcountryname" class="form-control custom required" autocomplete="off" />
+                                </div>
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Select State: <span class="requiredred">*</span></div>
+                                    <input type="hidden" id="hdnstateid" />
+                                    <input type="text" id="txtstatename" class="form-control custom required" autocomplete="off" />
+                                </div>
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Select City: <span class="requiredred">*</span></div>
+                                    <input type="hidden" id="hdncityid" />
+                                    <input type="text" id="txtcityname" class="form-control custom required" autocomplete="off" />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Phone No.:</div>
+                                    <div class="col-md-12 p0">
+                                    <input type="text" id="txtPhone" class="form-control custom" value="">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Mobile No.:</div>
+                                    <div class="col-md-12 p0">
+                                    <input type="text" id="txtMobile" class="form-control custom" value=""></div>
+                                </div>
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Display Name:<span class="requiredred">*</span></div>
+                                    <div class="col-md-12 p0">
+                                    <input type="text" id="txtDisplayname" class="form-control custom required" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">Company Name:<span class="requiredred">*</span></div>
+                                    <div class="col-md-12 p0">
+                                    <input type="text" id="txtCompany" class="form-control custom required" value="">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 p10">
+                                    <div class="col-md-12 p0">WebSite :<span class="requiredred">*</span></div>
+                                    <div class="col-md-12 p0">
+                                    <input type="text" id="txtWebsite" class="form-control custom required" value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-md-offset-9  m_top_20 ">
+                                <a id="btnSave" href="javascript:void(0);" onclick="SaveUser('Save')" class="btn btn-primary custom btn-block">Save</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/assets/js/jquery.min.js"></script>
+<script src="~/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="~/assets/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="~/assets/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="http://cdn.rawgit.com/bassjobsen/Bootstrap-3-Typeahead/master/bootstrap3-typeahead.min.js"></script>
+
+<script type="text/javascript">
+    function SweetUpdateSuccess(status) {
+        swal({
+            title: "Success!",
+            text: "Your row has been Updated.",
+            type: "success",
+            timer: 1000,
+            showConfirmButton: false, animation: false
+        });
+        if (status != 'new')
+            $('#myModal2').modal('toggle');
+    }
+    function SaveUser(Status) {
+        var isValid = true;
+        $('.required').each(function () {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).addClass("has-error")
+            }
+            else {
+                $(this).removeClass("has-error")
+            }
+        });
+        if (isValid) {
+            var jsonData = {
+                Id: "0",
+                Email: $("#txtEmail").val(),
+                Password: $("#txtPassword").val(),
+                Address: $("#txtAddress").val(),
+                Country: $("#hdncountryid").val(),
+                State: $("#hdnstateid").val(),
+                City: $("#hdncityid").val(),
+                Phone: $("#txtPhone").val(),
+                Mobile: $("#txtMobile").val(),
+                Displayname: $("#txtDisplayname").val(),
+                Allmodids: "",
+                Companyname: $("#txtCompany").val(),
+                Website: $("#txtWebsite").val(),
+            };
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Signupuser", "User")',
+                data: JSON.stringify(jsonData),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data != '' || data !== null) {
+                        if (data.Status == "Exists") {
+                        }
+                        else if (data.Status == "Update") {
+                            Clear();
+                        }
+                        else if (data.Status == "Insert") {
+                            Clear();
+                        }
+                        SweetUpdateSuccess(Status);
+                    }
+                },
+                error: function (data) {
+                    alert('Error');
+                    //alert(errorThrown);
+                }
+            });
+        }
+        else {
+        }
+    }
+    function Clear() {
+        $("#txtEmail").val('');
+        $("#txtPassword").val('');
+        $("#txtAddress").val('');
+        $("#txtcountryname").val('');
+        $("#hdncountryid").val('');
+        $("#txtstatename").val('');
+        $("#hdnstateid").val('');
+        $("#txtcityname").val('');
+        $("#hdncityid").val('');
+        $("#txtPhone").val('');
+        $("#txtMobile").val('');
+        $("#txtDisplayname").val('');
+        $("#txtCompany").val('');
+        $("#txtWebsite").val('');
+        $("#btnSave").text('Save');
+        $("#txtEmail").removeAttr("readonly");
+        $('.required').each(function () {
+            $(this).removeClass("has-error")
+        });
+
+    }
+    $('#txtcountryname').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+        , source: function (request, response) {
+            $.ajax({
+                url: '@Url.Action("GetCountry", "Master")',
+                data: "{}",
+                dataType: "json",
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    items = [];
+                    map = {};
+                    $.each(data, function (i, item) {
+                        var id = item.CountryId;
+                        var name = item.CountryName;
+                        map[name] = { id: id, name: name };
+                        items.push(name);
+                    });
+                    response(items);
+                    $(".dropdown-menu").css("height", "auto");
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        },
+        updater: function (item) {
+            $('[id*=hdncountryid]').val(map[item].id);
+            return item;
+        }
+    });
+    $('#txtstatename').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+        , source: function (request, response) {
+            if ($('#hdncountryid').val() != '' && $('#hdncountryid').val() != 0) {
+                var json = {
+                    CountryId: $('#hdncountryid').val()
+                };
+                $.ajax({
+                    url: '@Url.Action("GetState", "Master")',
+                    data: JSON.stringify(json),
+                    dataType: "json",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        items = [];
+                        map = {};
+                        $.each(data, function (i, item) {
+                            var id = item.StateId;
+                            var name = item.StateName;
+                            map[name] = { id: id, name: name };
+                            items.push(name);
+                        });
+                        response(items);
+                        $(".dropdown-menu").css("height", "auto");
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            }
+        },
+        updater: function (item) {
+            $('[id*=hdnstateid]').val(map[item].id);
+            return item;
+        }
+    });
+    $('#txtcityname').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+        , source: function (request, response) {
+            if ($('#hdnstateid').val() != '' && $('#hdnstateid').val() != 0) {
+                var json = {
+                    CountryId: $('#hdncountryid').val(),
+                    StateId: $('#hdnstateid').val()
+                };
+                $.ajax({
+                    url: '@Url.Action("GetCity", "Master")',
+                    data: JSON.stringify(json),
+                    dataType: "json",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        items = [];
+                        map = {};
+                        $.each(data, function (i, item) {
+                            var id = item.CityId;
+                            var name = item.CityName;
+                            map[name] = { id: id, name: name };
+                            items.push(name);
+                        });
+                        response(items);
+                        $(".dropdown-menu").css("height", "auto");
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            }
+        },
+        updater: function (item) {
+            $('[id*=hdncityid]').val(map[item].id);
+            return item;
+        }
+    });
+</script>

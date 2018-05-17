@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bcfcd456dc07444e9f75c27c4329299e" Name="Diagram1">
+        <EntityTypeShape EntityType="LystenModel.AnswerGroup" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Answer" Width="1.5" PointX="12" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.AppAccessToken" Width="1.5" PointX="9.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.BraintreeCustomerMapping" Width="1.5" PointX="9.75" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Calling_Request" Width="1.5" PointX="9.75" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.CallingPriceMaster" Width="1.5" PointX="7.5" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Category" Width="1.5" PointX="10.5" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.CategoryImageEvent" Width="1.5" PointX="12.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.City_Master" Width="1.5" PointX="5.25" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Country_Master" Width="1.5" PointX="0.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.EmailAccount" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.EmailTemplate" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Event" Width="1.5" PointX="12.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Favourite" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.GenderMaster" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Group" Width="1.5" PointX="12.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.GroupType" Width="1.5" PointX="10.5" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Message" Width="1.5" PointX="9.75" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.MessageRecipient" Width="1.5" PointX="12" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.MessageRequest" Width="1.5" PointX="9.75" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Question" Width="1.5" PointX="9.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.QuestionsCategoryMapping" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.ReminderFrequency" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.ReportUser" Width="1.5" PointX="9.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.RoleMaster" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Setting" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.State_Master" Width="1.5" PointX="3" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.Topic" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.User_Master" Width="1.5" PointX="7.5" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.UserCategoryMapping" Width="1.5" PointX="14.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.UserGroupMapping" Width="1.5" PointX="15" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.UserQuestionSubscribe" Width="1.5" PointX="9.75" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.WebSocketSessionDb" Width="1.5" PointX="15" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="LystenModel.database_firewall_rules" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="LystenModel.FK__Answers__AnswerG__5AB9788F" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Answers_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_AppAccessToken_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_BraintreeCustomerMapping_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Calling_Request_CallingPriceMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Calling_Request_FromUser_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Calling_Request_ToUser_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_CategoryImageEvent_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Event_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Group_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_UserCategoryMapping_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_City_Master_Country_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_City_Master_State_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_User_Master_City_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_State_Master_Country_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_User_Master_Country_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Event_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Group_GroupType" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Group_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_UserGroupMapping_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_WebSocketSession_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Message_Message" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Message_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_MessageRecipient_Message" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_MessageRecipient_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_MessageRequest_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_MessageRequest_User_Master1" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_Questions_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_ReportUser_From_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_ReportUser_To_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_User_Master_State_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_UserCategoryMapping_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_UserGroupMapping_User_Master1" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_UserQuestionSubscribe_User_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="LystenModel.FK_WebSocketSession_User_Master" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

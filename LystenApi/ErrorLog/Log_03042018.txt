@@ -1,0 +1,1089 @@
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:33:20 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param)
+
+-------------------End------------------- 4/3/2018 11:33:27 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:34:50 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param)
+
+-------------------End------------------- 4/3/2018 11:34:50 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:37:32 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:37:32 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:42:01 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:42:01 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:43:14 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t)
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param)
+
+-------------------End------------------- 4/3/2018 11:43:14 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:52:32 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:52:32 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:53:28 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:53:28 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:53:32 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:53:32 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:53:33 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:53:33 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:53:33 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:53:33 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:26 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:26 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:27 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:27 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:31 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:31 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:34 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:34 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:35 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:35 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:37 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:37 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:37 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:37 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:40 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:40 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:54:41 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:54:41 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:55:12 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:55:12 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:55:13 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:55:13 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:55:13 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:55:13 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:55:14 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:55:14 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:08 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:08 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:11 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:11 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:14 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:14 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:15 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:15 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:19 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:19 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:20 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:20 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:22 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:22 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:22 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:22 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:24 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:24 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:38 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:38 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 11:59:56 AM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 11:59:56 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:00:06 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:00:06 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:00:15 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:00:15 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:00:31 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:00:31 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:30 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:30 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:52 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:52 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:53 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:53 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:56 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:56 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:58 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:58 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:01:59 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:01:59 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:02:00 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:02:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:02:00 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:02:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:02:02 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:02:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:02:03 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:02:03 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:02:03 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:02:03 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:02:04 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:02:04 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:16 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:16 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:17 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:17 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:18 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:18 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:18 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:18 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:29 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:29 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:29 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:29 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:30 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:30 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:32 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:32 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:33 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:33 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:33 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:33 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:33 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:33 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:06:34 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:06:34 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:12:16 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:12:16 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:12:28 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:12:28 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:12:30 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:12:30 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:13:02 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:13:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:13:05 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:13:05 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:18:40 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:18:40 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:18:41 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:18:41 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:18:42 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:18:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:18:42 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:18:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:18:51 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:18:51 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 12:18:51 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\MasterController.cs:line 39
+
+-------------------End------------------- 4/3/2018 12:18:51 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 3:38:25 PM
+
+Inner Message: 
+Error Message: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CallingPriceMaster -> CallingPriceViewModel
+LystenApi.Db.CallingPriceMaster -> LystenApi.ViewModel.CallingPriceViewModel
+Stack Trace:    at lambda_method(Closure , CallingPriceMaster , CallingPriceViewModel , ResolutionContext )
+   at LystenApi.Utility.MasterServices.EditCallPrice(Int32 id)
+   at LystenApi.Controllers.MasterController.EditCallPrice(Int32 Id)
+
+-------------------End------------------- 4/3/2018 3:38:25 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 4/3/2018 3:45:00 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveCallingPriceMaster(CallingPriceMaster viewModel)
+   at LystenApi.Controllers.MasterController.SaveCallPrice(CallingPriceMaster CM)
+
+-------------------End------------------- 4/3/2018 3:45:00 PM
+

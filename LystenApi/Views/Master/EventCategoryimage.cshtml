@@ -1,0 +1,349 @@
+﻿
+@{
+    ViewBag.Title = "EventCategoryimage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="content">
+    <div class="container-fluid container-fixed-lg">
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#" class="active">@ViewBag.Title</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal fade stick-up" id="addNewAppModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header clearfix ">
+                    <button type="button" class="close" id="btnclose" data-dismiss="modal" aria-hidden="true">
+                        <i class="pg-close fs-14"></i>
+                    </button>
+                    <h4 class="p-b-5 semi-bold">Category Image</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group form-group-default">
+                                    <input type="hidden" id="hdnId" />
+                                    <label>Category Name</label>
+                                    @Html.DropDownList("ddlcategory", (SelectList)ViewBag.ddlcategory, "--- Select ---", new { @class = "form-control " })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group form-group-default">
+                                    <label>Image</label>
+                                    <input type='file' id="imgInp" />
+                                    <img id="blah" src="~/assets/img/NoImageFOund.jpg" alt="your image" style="height:100px;width:100px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="SaveCategoryImage()" type="button" class="btn btn-primary  btn-cons">Add</button>
+                    <button type="button" data-dismiss="modal" class="btn btn-cons">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid container-fixed-lg">
+        <div class="panel panel-transparent">
+            <div class="panel-heading">
+                <div class="pull-right">
+                    <div class="col-xs-12">
+                        <button id="show-modal" class="btn btn-primary btn-cons">
+                            <i class="fa fa-plus"></i> Add Image
+                        </button>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="container-fluid container-fixed-lg bg-white">
+                <div class="panel panel-transparent">
+                    <div class="panel-body  table-responsive">
+                        <table class="table table-hover demo-table-dynamic table-responsive-block" id="tblcategory">
+                            <thead>
+                                <tr role="row">
+                                    <th>Sr.</th>
+                                    <th>Category Id</th>
+                                    <th>Category Name</th>
+                                    <th>Image</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#blah').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#imgInp").change(function () {
+        readURL(this);
+    });
+
+
+
+
+    function Clear() {
+        $("#hdnId").val('');
+        $("#ddlcategory").val('');
+        $('.required').each(function () {
+            $(this).removeClass("has-error")
+        });
+    }
+
+    function ActiveDeActiveCategory(CategoryId,Status) {
+        var text = "Record will be " + Status+".";
+        var isValid = true;
+        swal({
+            title: "Are you sure?",
+            text: text,
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#19bb9b",
+            confirmButtonText: "Yes",
+            cancelButtonText: "No",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+                    if (isValid) {
+                        var jsonData = {
+                            Id: CategoryId
+                        };
+                        $.ajax({
+                            async: false,
+                            type: "POST",
+                            url: '@Url.Action("ActiveDeActiveCategory", "Master")',
+                            data: JSON.stringify(jsonData),
+                            contentType: 'application/json; charset=utf-8'
+                        }).done(function (data) {
+                            if (data.Status == true) {
+                                text = "Record is Active Now.";
+                            }
+                            else {
+                                text = "Record is inActive Now.";
+                            }
+                            Clear();
+                        })
+                    }
+                    display();
+                    SweetSaveSuccess(text)
+
+                } else {
+                    SweetCancelSuccess('Cancelled.')
+                }
+            });
+    }
+
+    function sendFile(file) {
+
+        var formData = new FormData();
+        formData.append('file', $('#imgInp')[0].files[0]);
+        $.ajax({
+            type: 'post',
+            url: '@Url.Action("SaveCategorypic","Master")',
+            data: formData,
+            success: function (status) {
+                if (status != 'error') {
+
+                }
+            },
+            processData: false,
+            contentType: false,
+            error: function () {
+                alert("Whoops something went wrong!");
+            }
+        });
+    }
+
+
+
+    function SaveCategoryImage() {
+        debugger;
+        var isValid = true;
+
+        if ($('#ddlcategory').val() == "") {
+            $('#ddlcategory').parent().addClass("has-error")
+             isValid = false;
+
+
+        } else {
+            $('#ddlcategory').parent().removeClass("has-error")
+        }
+
+
+        $('.required').each(function () {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).parent().addClass("has-error")
+            }
+            else {
+                $(this).parent().removeClass("has-error")
+            }
+        });
+        if (isValid) {
+            var jsonData = {
+                Id: $("#hdnId").val(),
+                CategoryId: $("#ddlcategory option:selected").val()
+            };
+
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("SaveEventCategoryimage", "Master")',
+                data: JSON.stringify(jsonData),
+                contentType: 'application/json; charset=utf-8'
+            }).done(function (data) {
+
+                if (data != '' || data !== null) {
+
+                    sendFile();
+                    if (data.Status == "Exists") {
+                        alert('Image already exists.')
+                    }
+                    else if (data.Status == "Update") {
+                        Clear();
+                        SweetUpdateSuccess();
+                        display();
+                    }
+                    else if (data.Status == "Insert") {
+                        Clear();
+                        SweetUpdateSuccess();
+                        display();
+                    }
+                    sendFile();
+                }
+            }).error(function (jqXHR, textStatus, errorThrown) {
+                alert(errorThrown);
+            });
+        }
+        else {
+        }
+    }
+
+
+    $(document).ready(function () {
+      display();
+            })
+
+    function EditCategory(Id, Status) {
+        var isValid = true;
+        if (isValid) {
+            var jsonData = {
+                Id: Id
+            };
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("EditEventCategoryimage", "Master")',
+                data: JSON.stringify(jsonData),
+                contentType: 'application/json; charset=utf-8'
+            }).done(function (data) {
+                if (data != null) {
+                    $('#addNewAppModal').modal('show');
+                    if (Status == 'view') {
+                        $("#lblcountrycode").text(data.CountryCode)
+                        $('#lblcountryname').text(data.Name);
+                        $('#txtdescription').text(data.Description);
+                    }
+                    else {
+                        $("#hdnId").val(data.Id)
+                        $('#ddlcategory').val(data.CategoryId);
+                        $('#blah').attr('src', data.Image);
+                    }
+                }
+            })
+        }
+    }
+
+
+    function display() {
+        var oTable = $('#tblcategory').DataTable({
+            "oLanguage": {
+                "sProcessing": "<img src='../Content/images/spinner.GIF' style='margin: 0 auto;display: block;' />",
+                  "sSearch": '<i class="searchBtn fa fa-search"></i>',
+                searchPlaceholder: "Search"
+            },
+            "iDisplayLength": 10,
+            "bLengthChange": true,
+            "bSort": false,
+            "bDestroy": true,
+            "sEmptyTable": "Loading data from server",
+            "searching": true,
+            "paging": true,
+            "processing": true,
+            "serverSide": true,
+            "sAjaxSource": '@Url.Action("GetAllEventCategoryimage", "Master")',
+            "fnServerData": function (sSource, aoData, fnCallback) {
+                $.ajax({
+                    "dataType": 'json',
+                    "type": "POST",
+                    "url": sSource,
+                    "data": aoData,
+                    "success": fnCallback
+                });
+            },
+            "columns": [
+                {
+                    "sWidth": "5%",
+                    "data": "id",
+                    render: function (data, type, row, meta) {
+                        return meta.row + meta.settings._iDisplayStart + 1;
+                    }
+                },
+                { "bVisible": false },
+                {  },
+                {
+
+                    "render": function (data, type, row, meta) {
+                        var str = "";
+                        str = '<img style="height:100PX;width:100PX" src= '+row[3] +'>';
+                        //str = str + '<a href="javascript:void(0)" onclick="ActiveDeActiveCountry(' + row[1] + ',\'InActive\')" class="btn btn-cons">Delete</a>'
+                        return str;
+                    }
+                },
+                {
+
+                    "render": function (data, type, row, meta) {
+                        var str = "";
+                     
+                            //str = '<div class="btn-group"><a href="javascript:void(0)" title="Active" onclick="ActiveDeActiveCategory(' + row[1] + ',\'Active\')" class="btn "><i class="fa fa-circle text-success"></i></a> '
+                        str = str + ' <a href="javascript:void(0)"  title="Edit" onclick="EditCategory(' + row[1] + ')" class="btn  "><i class="fa fa-edit"></i></a></div>'
+
+                        //str = str + '<a href="javascript:void(0)" onclick="ActiveDeActiveCountry(' + row[1] + ',\'InActive\')" class="btn btn-cons">Delete</a>'
+                        return str;
+                    }
+                },
+            ],
+          });
+      }
+
+</script>
+

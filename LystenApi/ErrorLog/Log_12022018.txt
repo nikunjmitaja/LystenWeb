@@ -1,0 +1,540 @@
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:41 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:41 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:42 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:42 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:43 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:43 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:43 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:43 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:44 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:44 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:44 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:44 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:50 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:50 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:08:51 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass20_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 348
+
+-------------------End------------------- 2/12/2018 11:08:51 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:56 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:56 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:57 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:57 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:57 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:57 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:58 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:58 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:59 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:59 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:27:59 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:27:59 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:28:00 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:28:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:28:00 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:28:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:28:01 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:28:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:28:02 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:28:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:22 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:22 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:22 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:22 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:23 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:23 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:23 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:23 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:24 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:24 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:25 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:25 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:25 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:25 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:26 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:26 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:30:26 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:30:26 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:33:13 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:33:13 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:33:14 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:33:14 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:33:53 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:33:53 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:34:06 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:34:06 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:35:08 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass4_0.<GetAllUser>b__0(User_Master t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllUser(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 40
+
+-------------------End------------------- 2/12/2018 11:35:08 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:47:35 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass21_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 362
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 362
+
+-------------------End------------------- 2/12/2018 11:47:35 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/12/2018 11:47:36 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.MasterController.<>c__DisplayClass21_0.<GetAllEvent>b__0(Event t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 362
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEvent(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 362
+
+-------------------End------------------- 2/12/2018 11:47:36 PM
+

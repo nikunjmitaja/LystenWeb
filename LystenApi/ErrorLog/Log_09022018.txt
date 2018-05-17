@@ -1,0 +1,871 @@
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:31:53 AM
+
+Error Message: new 1
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:31:53 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:32:05 AM
+
+Error Message: new 1
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:32:05 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:32:34 AM
+
+Error Message: new 1
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:32:34 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:32:45 AM
+
+Error Message: new 1
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:32:45 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:34:32 AM
+
+Error Message: new 1
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:34:32 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 7:54:46 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.WriteMultiLineByteArray(Byte[] bytes) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 903
+   at LystenApi.Controllers.Api.MasterController.sendMsg(Int32 Id, String devicetocken) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 830
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__19.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1217
+
+-------------------End------------------- 2/9/2018 7:54:46 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:48:57 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:48:57 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:48:58 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:48:58 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:12 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1046
+
+-------------------End------------------- 2/9/2018 9:49:12 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:24 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:24 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:24 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:24 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:24 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1046
+
+-------------------End------------------- 2/9/2018 9:49:24 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:37 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:37 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:37 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:37 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:47 AM
+
+Error Message: 2 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:47 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:54 AM
+
+Error Message: True
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:54 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:49:56 AM
+
+Error Message: 3 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:49:56 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:17 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1091
+
+-------------------End------------------- 2/9/2018 9:50:17 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:27 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:50:27 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:27 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:50:27 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:28 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1046
+
+-------------------End------------------- 2/9/2018 9:50:28 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:44 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:50:44 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:44 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:50:44 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:50:48 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1046
+
+-------------------End------------------- 2/9/2018 9:50:48 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:25 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:25 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:25 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:25 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:32 AM
+
+Error Message: 2 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:32 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:39 AM
+
+Error Message: True
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:39 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:42 AM
+
+Error Message: 3 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:42 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:57 AM
+
+Error Message: Cannot use a payment_method_nonce more than once.
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:57 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:54:58 AM
+
+Error Message: 70fb72f3-e424-09de-1af3-bb051e86d5d9
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:54:58 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:55:00 AM
+
+Error Message: hahah
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:55:00 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:55:00 AM
+
+Error Message: Braintree.ResultImpl`1[Braintree.Transaction]
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:55:00 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:55:00 AM
+
+Error Message: Cannot use a payment_method_nonce more than once.
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:55:00 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:55:00 AM
+
+Error Message: False
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:55:00 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:56:20 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:56:20 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:56:20 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:56:20 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:56:28 AM
+
+Error Message: 2 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:56:28 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:56:35 AM
+
+Error Message: True
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:56:35 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:56:38 AM
+
+Error Message: 3 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:56:38 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:57:19 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1089
+
+-------------------End------------------- 2/9/2018 9:57:19 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:59:16 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:59:16 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:59:16 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:59:16 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:59:18 AM
+
+Error Message: 2 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:59:18 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:59:27 AM
+
+Error Message: True
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:59:27 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:59:29 AM
+
+Error Message: 3 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:59:29 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 9:59:46 AM
+
+Error Message: 2d411995-4b1e-0812-16de-14bd248c024b
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 9:59:46 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:00:18 AM
+
+Error Message: hahah
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:00:18 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:00:27 AM
+
+Error Message: Braintree.ResultImpl`1[Braintree.Transaction]
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:00:27 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:00:31 AM
+
+Error Message: Cannot use a payment_method_nonce more than once.
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:00:31 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:00:32 AM
+
+Error Message: False
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:00:32 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:00:57 AM
+
+Error Message: 1 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:00:57 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:00:57 AM
+
+Error Message: 44
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:00:57 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:14 AM
+
+Error Message: 2 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:14 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:17 AM
+
+Error Message: True
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:17 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:17 AM
+
+Error Message: 3 test
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:17 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:20 AM
+
+Error Message: 08232606-dccf-0245-166b-f4b3ae9bf496
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:20 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:42 AM
+
+Error Message: hahah
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:42 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:42 AM
+
+Error Message: Braintree.ResultImpl`1[Braintree.Transaction]
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:42 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:42 AM
+
+Error Message: Cannot use a payment_method_nonce more than once.
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:42 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 10:01:42 AM
+
+Error Message: False
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 10:01:42 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:25:17 AM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 11:25:17 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:27:13 AM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1043
+
+-------------------End------------------- 2/9/2018 11:27:13 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:32:39 AM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 11:32:39 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:37:17 AM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 11:37:17 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:39:17 AM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 11:39:17 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:41:25 AM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 11:41:25 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:44:13 AM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 11:44:13 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:44:25 AM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 11:44:25 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 11:53:20 AM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 11:53:20 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 1:24:52 PM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 1:24:52 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 1:30:39 PM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 1:30:39 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:32:25 PM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 2:32:25 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:32:52 PM
+
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1176
+
+-------------------End------------------- 2/9/2018 2:32:52 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:55:58 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:55:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 2:57:21 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 2:57:21 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:01:29 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 3:01:29 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:03:36 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1078
+
+-------------------End------------------- 2/9/2018 3:03:36 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:05:25 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1078
+
+-------------------End------------------- 2/9/2018 3:05:25 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:31:26 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1078
+
+-------------------End------------------- 2/9/2018 3:31:26 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:38:44 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1078
+
+-------------------End------------------- 2/9/2018 3:38:44 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:42:09 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1078
+
+-------------------End------------------- 2/9/2018 3:42:09 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:43:46 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 3:43:46 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:50:27 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 3:50:27 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:54:27 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1054
+
+-------------------End------------------- 2/9/2018 3:54:27 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:55:33 PM
+
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<Payment>d__20.MoveNext() in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\Api\MasterController.cs:line 1054
+
+-------------------End------------------- 2/9/2018 3:55:33 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 3:57:40 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 3:57:40 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 4:00:58 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 4:00:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 4:03:06 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 4:03:06 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 4:14:15 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 4:14:15 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 2/9/2018 4:14:59 PM
+
+Error Message: Error: 91564 - Cannot use a payment_method_nonce more than once.
+
+Stack Trace: 
+
+-------------------End------------------- 2/9/2018 4:14:59 PM
+

@@ -1,0 +1,427 @@
+﻿
+@{
+    ViewBag.Title = "User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="content">
+    <div class="container-fluid container-fixed-lg">
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#" class="active">@ViewBag.Title</a>
+            </li>
+        </ul>
+    </div>
+    <div class="modal fade stick-up" id="addNewAppModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header clearfix ">
+                    <button type="button" class="close" id="btnclose" data-dismiss="modal" aria-hidden="true">
+                        <i class="pg-close fs-14"></i>
+                    </button>
+                    <h4 class="p-b-5 semi-bold">User</h4>
+                    @{
+                        string baseURL = "";
+                        baseURL += System.Configuration.ConfigurationManager.AppSettings["userimagepath"].Replace("~", "");
+                    }
+                    <div class="m_b_50">
+                        <img src="~/Content/images/NoImageFOund.jpg" id="imguser" style="height:100px;width:100px" />
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <input type="hidden" id="hdncategoryid" />
+                                        <label>Full Name :</label>
+                                        <label id="lblfullname"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Country Name :</label>
+                                        <label id="lblcountryname"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Phone :</label>
+                                        <label id="lblphone"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>College/University :</label>
+                                        <label id="lblcollege"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Age :</label>
+                                        <label id="lblage"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>SSN :</label>
+                                        <label id="lblsnn"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Date of Birth :</label>
+                                        <label id="lbldob"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <input type="hidden" id="hdncategoryid" />
+                                        <label>UserName :</label>
+                                        <label id="lblusername"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Email :</label>
+                                        <label id="lblemail"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Degree :</label>
+                                        <label id="lbldegree"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Occupation :</label>
+                                        <label id="lbloccupation"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Gender :</label>
+                                        <label id="lblgender"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Skills :</label>
+                                        <label id="lblskill"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-group-default">
+                                        <label>Postal Code :</label>
+                                        <label id="lblPostcode"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-cons">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid container-fixed-lg">
+        <div class="panel panel-transparent">
+            <div class="container-fluid container-fixed-lg bg-white">
+                <div class="panel panel-transparent">
+                    <div class="panel-body  ">
+                        <table class="table table-hover demo-table-dynamic table-responsive-block" id="tbluser">
+                            <thead>
+                                <tr>
+                                    <th>Sr.</th>
+                                    <th style="display:none;">User Id</th>
+                                    <th>Email</th>
+                                    <th>Display Name</th>
+                                    <th>User Type</th>
+                                    <th>IsActive</th>
+                                    <th>Verified Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function ViewUser(UserId) {
+                var isValid = true;
+                if (isValid) {
+                    var jsonData = {
+                        Id: UserId
+                    };
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("GetUserById", "Master")',
+                        data: JSON.stringify(jsonData),
+                        contentType: 'application/json; charset=utf-8'
+                    }).done(function (data) {
+                        if (data != null) {
+                            //debugger;
+                            console.log(data);
+                            $('#addNewAppModal').modal('show');
+                            $('#lblfullname').text(data.FullName);
+                            $('#lblcountryname').text(data.CountryName == null ? "" : data.CountryName);
+                            $('#lblphone').text(data.Phone == null ? "" : data.Phone);
+                            $('#lblcollege').text(data.CollegeUniversity == null ? "" : data.CollegeUniversity);
+                            $('#lblusername').text(data.UserName == null ? "" : data.UserName);
+                            $('#lblemail').text(data.Email == null ? "" : data.Email);
+                            $('#lbldegree').text(data.Degree == null ? "" : data.Degree);
+                            $('#lbloccupation').text(data.Occupation == null ? "" : data.Occupation);
+                            $('#lblage').text(data.Age == null ? "" : data.Age);
+
+                            $('#lblskill').text(data.Skill == null ? "" : data.Skill);
+                            $('#lblsnn').text(data.SSN == null ? "" : data.SSN);
+                            $('#lbldob').text(data.DateOfBirth == null ? "" : data.DateOfBirth);
+                            $('#lblPostcode').text(data.PostalCode == null ? "" : data.PostalCode);
+
+
+
+                            if (data.Image != null && data.Image != "") {
+                                $('#imguser').attr('src', '@baseURL' + data.Image);
+                            } else {
+                             $('#imguser').attr('src','/Content/images/NoImageFOund.jpg');
+                            }
+                            if (data.Gender == 1)
+                                $('#lblgender').text('Male');
+                            else
+                                $('#lblgender').text('Female');
+                        }
+                    })
+                }
+            }
+
+
+    $(document).ready(function () {
+      display();
+    })
+    function MarkasVerified(userid) {
+           var text = "Record will be Verified.";
+        var isValid = true;
+        swal({
+            title: "Are you sure?",
+            text: text,
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#19bb9b",
+            confirmButtonText: "Yes",
+            cancelButtonText: "No",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+                    if (isValid) {
+                        var jsonData = {
+                            Id: userid
+                        };
+                        $.ajax({
+                            async: false,
+                            type: "POST",
+                            url: '@Url.Action("MarkasVerified", "Master")',
+                            data: JSON.stringify(jsonData),
+                            contentType: 'application/json; charset=utf-8'
+                        }).done(function (data) {
+                            if (data.Status == true) {
+                                text = "Record is Verified Now.";
+                            }
+                            else {
+                                text = "Record is inActive Now.";
+                            }
+                        })
+                    }
+                    display();
+                    SweetSaveSuccess(text)
+
+                } else {
+                    SweetCancelSuccess('Cancelled.')
+                }
+            });
+    }
+
+    function ActiveDeActiveUser(UserId,Status) {
+        var text = "Record will be " + Status+".";
+        var isValid = true;
+        swal({
+            title: "Are you sure?",
+            text: text,
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#19bb9b",
+            confirmButtonText: "Yes",
+            cancelButtonText: "No",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+                    if (isValid) {
+                        var jsonData = {
+                            Id: UserId
+                        };
+                        $.ajax({
+                            async: false,
+                            type: "POST",
+                            url: '@Url.Action("ActiveDeActiveUser", "Master")',
+                            data: JSON.stringify(jsonData),
+                            contentType: 'application/json; charset=utf-8'
+                        }).done(function (data) {
+                            if (data.Status == true) {
+                                text = "Record is Active Now.";
+                            }
+                            else {
+                                text = "Record is inActive Now.";
+                            }
+                        })
+                    }
+                    display();
+                    SweetSaveSuccess(text)
+
+                } else {
+                    SweetCancelSuccess('Cancelled.')
+                }
+            });
+    }
+
+
+
+    function display() {
+        var oTable = $('#tbluser').DataTable({
+            "oLanguage": {
+                "sProcessing": "<img src='../Content/images/spinner.GIF' style='margin: 0 auto;display: block;' />",
+                "sSearch": '<i class="searchBtn fa fa-search"></i>',
+                searchPlaceholder: "Search"
+            },
+            "iDisplayLength": 10,
+            "bLengthChange": true,
+            "bSort": false,
+            "bDestroy": true,
+            "sEmptyTable": "Loading data from server",
+            "searching": true,
+            "paging": true,
+            "processing": true,
+            "serverSide": true,
+            "sAjaxSource": '@Url.Action("GetAllUser", "Master")',
+            "fnServerData": function (sSource, aoData, fnCallback) {
+                $.ajax({
+                    "dataType": 'json',
+                    "type": "POST",
+                    "url": sSource,
+                    "data": aoData,
+                    "success": fnCallback
+                });
+            },
+            "columns": [
+                {
+                    "sWidth": "4%",
+                    "data": "id",
+                    render: function (data, type, row, meta) {
+                        return meta.row + meta.settings._iDisplayStart + 1;
+                    }
+                },
+
+                { "bVisible": false },
+
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                {
+                    "sWidth": "10%",
+                    "render": function (data, type, row, meta) {
+                        var str = "";
+                        str = '<div class="btn-group">' + row[6] + '</div>';
+                        return str;
+                    }
+                },
+                {
+                    "sWidth": "10%",
+                    "render": function (data, type, row, meta) {
+                        var str = "";
+
+                        str = '<div class="btn-group"> ' + row[4]+'</div> '
+
+                        return str;
+                    }
+                },
+
+                {
+                    "sWidth": "10%",
+                    "render": function (data, type, row, meta) {
+                        //console.log(row);
+                        var str = "";
+                        if (row[6] == "Service Provider") {
+                            if (row[5] != "IsVerified") {
+                                str = '<div class="btn-group"><a href="javascript:void(0)" title="Not Verified" onclick="MarkasVerified(' + row[1] + ')" class="btn "><i class="fa fa-circle-o text-muted"></i></a> '
+                            } else {
+                                str = '<div class="btn-group"><a href="javascript:void(0)" title="IsVerified"   class="btn ">IsVerified</a> '
+                            }
+                        }
+                        return str;
+                    }
+                },
+                {
+                    "sWidth": "10%",
+                    "render": function (data, type, row, meta) {
+                        var str = "";
+                        if (row[4] == "Active") {
+                            str = '<div class="btn-group"><a href="javascript:void(0)" title="InActive" onclick="ActiveDeActiveUser(' + row[1] + ',\'InActive\')" class="btn "><i class="fa fa-circle-o text-muted"></i></a> '
+                        } else {
+                            str = '<div class="btn-group"><a href="javascript:void(0)" title="Active" onclick="ActiveDeActiveUser(' + row[1] + ',\'Active\')" class="btn "><i class="fa fa-circle text-success"></i></a> '
+                        }
+                        str = str + '<a href="javascript:void(0)"  class="btn btn-primary" title="View" onclick="ViewUser(' + row[1] + ')" class="btn btn-cons"><i class="fa fa-eye"></i></a>'
+
+                        return str;
+                    }
+                },
+            ],
+        });
+    }
+
+</script>

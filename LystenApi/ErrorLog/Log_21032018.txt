@@ -1,0 +1,537 @@
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 9:49:08 AM
+
+Inner Message: 
+Error Message: 3/21/2018 4:19:08 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 9:49:08 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 10:08:49 AM
+
+Inner Message: 
+Error Message: 3/21/2018 4:38:49 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 10:08:49 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 10:46:07 AM
+
+Inner Message: 
+Error Message: 3/21/2018 5:16:07 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 10:46:07 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 10:54:35 AM
+
+Inner Message: 
+Error Message: 3/21/2018 5:24:35 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 10:54:35 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 11:09:01 AM
+
+Inner Message: 
+Error Message: 3/21/2018 5:39:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 11:09:01 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 11:09:01 AM
+
+Inner Message: 
+Error Message: 3/21/2018 5:39:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 11:09:01 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 11:24:16 AM
+
+Inner Message: 
+Error Message: 3/21/2018 5:54:16 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 11:24:16 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 11:24:16 AM
+
+Inner Message: 
+Error Message: 3/21/2018 5:54:16 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 11:24:16 AM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 12:26:58 PM
+
+Inner Message: 
+Error Message: 3/21/2018 6:56:58 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 12:26:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 12:58:18 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:28:18 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 12:58:18 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 1:13:00 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:43:00 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 1:13:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 1:13:00 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:43:00 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 1:13:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 1:28:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:58:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 1:28:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 1:28:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:58:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 1:28:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 1:28:02 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:58:02 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 1:28:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 1:28:02 PM
+
+Inner Message: 
+Error Message: 3/21/2018 7:58:02 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 1:28:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:03:33 PM
+
+Inner Message: 
+Error Message: 3/21/2018 9:33:33 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:03:33 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:04:16 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:04:16 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:04:22 PM
+
+Inner Message: 
+Error Message: Exception of type 'Braintree.Exceptions.NotFoundException' was thrown.
+Stack Trace:    at Braintree.BraintreeService.ThrowExceptionIfErrorStatusCode(HttpStatusCode httpStatusCode, String message)
+   at Braintree.BraintreeService.GetXmlResponse(String URL, String method, Request requestBody, FileStream file)
+   at Braintree.BraintreeService.Post(String URL, Request requestBody)
+   at Braintree.BraintreeService.Post(String URL)
+   at Braintree.PaymentMethodNonceGateway.Create(String token)
+   at LystenApi.Controllers.Api.MasterController.<Payment>d__22.MoveNext() in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\Api\MasterController.cs:line 1776
+
+-------------------End------------------- 3/21/2018 3:04:22 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:04:42 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:04:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:05:28 PM
+
+Inner Message: 
+Error Message: No such token: tok_KPte7942xySKBKyrBu11yEpf
+Stack Trace:    at Stripe.Infrastructure.Requestor.ExecuteRequest(HttpRequestMessage requestMessage)
+   at Stripe.Infrastructure.Requestor.PostString(String url, StripeRequestOptions requestOptions)
+   at Stripe.StripeCustomerService.Create(StripeCustomerCreateOptions createOptions, StripeRequestOptions requestOptions)
+   at LystenApi.Controllers.Api.MasterController.<StripPayment>d__23.MoveNext() in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\Api\MasterController.cs:line 1918
+
+-------------------End------------------- 3/21/2018 3:05:28 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:05:59 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:05:59 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:06:49 PM
+
+Inner Message: 
+Error Message: You cannot use a Stripe token more than once: tok_1C83MBKZZeWSkNcHUypvieeb.
+Stack Trace:    at Stripe.Infrastructure.Requestor.ExecuteRequest(HttpRequestMessage requestMessage)
+   at Stripe.Infrastructure.Requestor.PostString(String url, StripeRequestOptions requestOptions)
+   at Stripe.StripeChargeService.Create(StripeChargeCreateOptions createOptions, StripeRequestOptions requestOptions)
+   at LystenApi.Controllers.Api.MasterController.<StripPayment>d__23.MoveNext() in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\Api\MasterController.cs:line 1941
+
+-------------------End------------------- 3/21/2018 3:06:49 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:07:13 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:07:13 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:08:24 PM
+
+Inner Message: 
+Error Message: You cannot use a Stripe token more than once: tok_1C83NRKZZeWSkNcH04vRyBdv.
+Stack Trace:    at Stripe.Infrastructure.Requestor.ExecuteRequest(HttpRequestMessage requestMessage)
+   at Stripe.Infrastructure.Requestor.PostString(String url, StripeRequestOptions requestOptions)
+   at Stripe.StripeChargeService.Create(StripeChargeCreateOptions createOptions, StripeRequestOptions requestOptions)
+   at LystenApi.Controllers.Api.MasterController.<StripPayment>d__23.MoveNext() in C:\Vatsal\SVN\ASP.NET\Lysten\LystenApi\Controllers\Api\MasterController.cs:line 1941
+
+-------------------End------------------- 3/21/2018 3:08:24 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:09:11 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:09:11 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:10:30 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Controllers.Api.MasterController.<StripPayment>d__23.MoveNext()
+
+-------------------End------------------- 3/21/2018 3:10:30 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:11:57 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:11:57 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:12:39 PM
+
+Inner Message: 
+Error Message: You cannot use a Stripe token more than once: tok_1C83OwKZZeWSkNcH2HAb44iD.
+Stack Trace:    at Stripe.Infrastructure.Requestor.ExecuteRequest(HttpRequestMessage requestMessage)
+   at Stripe.Infrastructure.Requestor.PostString(String url, StripeRequestOptions requestOptions)
+   at Stripe.StripeChargeService.Create(StripeChargeCreateOptions createOptions, StripeRequestOptions requestOptions)
+   at LystenApi.Controllers.Api.MasterController.<StripPayment>d__23.MoveNext()
+
+-------------------End------------------- 3/21/2018 3:12:39 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:12:53 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:12:53 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:18:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 9:48:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:18:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:18:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 9:48:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:18:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:28:25 PM
+
+Inner Message: 
+Error Message: 3/21/2018 9:58:25 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:28:25 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 3:39:24 PM
+
+Inner Message: 
+Error Message: 3/21/2018 10:09:24 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 3:39:24 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:02:42 PM
+
+Inner Message: 
+Error Message: 3/21/2018 10:32:42 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:02:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:16:34 PM
+
+Inner Message: 
+Error Message: 3/21/2018 10:46:34 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:16:34 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:18:17 PM
+
+Inner Message: 
+Error Message: 3/21/2018 10:48:17 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:18:17 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:20:59 PM
+
+Inner Message: 
+Error Message: 3/21/2018 10:50:58 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:20:59 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:29:48 PM
+
+Inner Message: 
+Error Message: 3/21/2018 10:59:48 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:29:48 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:44:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:14:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:44:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:44:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:14:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:44:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:57:56 PM
+
+Inner Message: 
+Error Message: 2
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:57:56 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:59:00 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:29:00 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:59:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:59:00 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:29:00 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:59:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:59:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:29:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:59:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 4:59:01 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:29:01 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 4:59:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 5:12:07 PM
+
+Inner Message: 
+Error Message: 3/21/2018 11:42:07 AM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 5:12:07 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 5:50:45 PM
+
+Inner Message: 
+Error Message: 3/21/2018 12:20:45 PM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 5:50:45 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 6:05:00 PM
+
+Inner Message: 
+Error Message: 3/21/2018 12:35:00 PM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 6:05:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 6:05:00 PM
+
+Inner Message: 
+Error Message: 3/21/2018 12:35:00 PM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 6:05:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 6:28:42 PM
+
+Inner Message: 
+Error Message: 3/21/2018 12:58:42 PM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 6:28:42 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/21/2018 6:33:44 PM
+
+Inner Message: 
+Error Message: 3/21/2018 1:03:44 PM
+Stack Trace: 
+
+-------------------End------------------- 3/21/2018 6:33:44 PM
+

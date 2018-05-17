@@ -1,0 +1,677 @@
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 2:40:58 PM
+
+Inner Message: 
+Error Message: asdasdasdasdsa 1
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 2:40:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 2:40:58 PM
+
+Inner Message: 
+Error Message: 3/5/2018 9:10:58 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 2:40:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 2:41:02 PM
+
+Inner Message: 
+Error Message: start 1
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 2:41:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:10:15 PM
+
+Inner Message: 
+Error Message: 3/5/2018 11:40:15 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:10:15 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:17:05 PM
+
+Inner Message: 
+Error Message: 3/5/2018 11:47:05 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:17:05 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:28:46 PM
+
+Inner Message: 
+Error Message: 3/5/2018 11:58:46 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:28:46 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:29:51 PM
+
+Inner Message: 
+Error Message: 3/5/2018 11:59:51 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:29:51 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:31:04 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:31:04 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:31:34 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:31:34 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:32:46 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:02:46 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:32:46 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:32:53 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:32:53 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:33:08 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:33:08 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:33:44 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:33:44 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:34:52 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:04:52 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:34:52 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:34:59 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:34:59 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:35:12 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:35:12 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:35:41 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:05:41 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:35:41 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:36:14 PM
+
+Inner Message: 
+Error Message: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+Stack Trace:    at System.Data.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Objects.ObjectQuery`1.Execute(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Objects.DataClasses.RelatedEnd.Load()
+   at System.Data.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass0_0`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.CategoryImageEvent_C2FCB544E9B416A3AD1B060FDEB06C651C3D66F963B3C5BE1F8450422BC88B95.get_Category()
+   at LystenApi.Controllers.MasterController.<>c.<GetAllEventCategoryimage>b__21_2(CategoryImageEvent t) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 368
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at LystenApi.Controllers.MasterController.GetAllEventCategoryimage(jQueryDataTableParamModel param) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 366
+
+-------------------End------------------- 3/5/2018 5:36:14 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:39:17 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:09:17 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:39:17 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:41:44 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:11:44 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:41:44 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:48:23 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:18:23 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:48:23 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:49:29 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:19:29 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:49:29 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:52:33 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:22:33 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:52:33 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:55:39 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:25:39 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 5:55:39 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 5:56:29 PM
+
+Inner Message: 
+Error Message: The method or operation is not implemented.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent cM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 444
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 5:56:29 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:02:44 PM
+
+Inner Message: 
+Error Message: The method or operation is not implemented.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent cM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 444
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:02:44 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:03:01 PM
+
+Inner Message: 
+Error Message: The method or operation is not implemented.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent cM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 444
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:03:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:04:51 PM
+
+Inner Message: 
+Error Message: The method or operation is not implemented.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent cM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 444
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:04:51 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:04:58 PM
+
+Inner Message: 
+Error Message: The method or operation is not implemented.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent cM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 444
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:04:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:10:01 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:40:01 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:10:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:10:01 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:40:01 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:10:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:12:35 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:42:35 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:12:35 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:14:01 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:44:01 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:14:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:15:38 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:45:38 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:15:38 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:17:22 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 450
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:17:22 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:17:55 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 450
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:17:55 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:18:39 PM
+
+Inner Message: 
+Error Message: Object reference not set to an instance of an object.
+Stack Trace:    at LystenApi.Utility.MasterServices.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Utility\MasterServices.cs:line 450
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 485
+
+-------------------End------------------- 3/5/2018 6:18:39 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:20:47 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:50:47 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:20:47 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:24:26 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:54:26 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:24:26 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:28:20 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:58:20 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:28:20 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:30:23 PM
+
+Inner Message: 
+Error Message: 3/5/2018 1:00:23 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:30:23 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:30:38 PM
+
+Inner Message: 
+Error Message: Cannot implicitly convert type '<>f__AnonymousType12<int,string>' to 'LystenApi.Db.CategoryImageEvent'
+Stack Trace:    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 479
+
+-------------------End------------------- 3/5/2018 6:30:39 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:32:02 PM
+
+Inner Message: 
+Error Message: Cannot implicitly convert type '<>f__AnonymousType12<int,string>' to 'LystenApi.Db.CategoryImageEvent'
+Stack Trace:    at CallSite.Target(Closure , CallSite , Object )
+   at LystenApi.Controllers.MasterController.SaveEventCategoryimage(CategoryImageEvent CM) in C:\Users\SanjayAmeta\Desktop\Lysten\LystenApi\LystenApi\Controllers\MasterController.cs:line 479
+
+-------------------End------------------- 3/5/2018 6:32:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 6:33:20 PM
+
+Inner Message: 
+Error Message: 3/5/2018 1:03:20 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 6:33:20 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:06:56 PM
+
+Inner Message: 
+Error Message: 3/5/2018 1:36:56 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:06:56 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:11:00 PM
+
+Inner Message: 
+Error Message: 123123123123123213
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:11:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:11:01 PM
+
+Inner Message: 
+Error Message: 123123123123123213
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:11:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:11:02 PM
+
+Inner Message: 
+Error Message: 3/5/2018 1:41:02 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:11:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:16:00 PM
+
+Inner Message: 
+Error Message: 123123123123123213
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:16:00 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:16:01 PM
+
+Inner Message: 
+Error Message: 3/5/2018 1:46:01 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:16:01 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:21:02 PM
+
+Inner Message: 
+Error Message: 123123123123123213
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:21:02 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:21:03 PM
+
+Inner Message: 
+Error Message: 3/5/2018 1:51:03 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:21:03 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:38:27 PM
+
+Inner Message: 
+Error Message: 3/5/2018 2:08:27 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:38:27 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:44:58 PM
+
+Inner Message: 
+Error Message: 3/5/2018 2:14:58 PM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:44:58 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:45:06 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:00:00 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:45:06 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/5/2018 7:45:06 PM
+
+Inner Message: 
+Error Message: 3/5/2018 12:00:00 AM
+Stack Trace: 
+
+-------------------End------------------- 3/5/2018 7:45:06 PM
+

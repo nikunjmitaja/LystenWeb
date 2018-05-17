@@ -1,0 +1,312 @@
+﻿
+@{
+    ViewBag.Title = "Calling";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid container-fixed-lg">
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#" class="active">@ViewBag.Title</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal fade stick-up" id="addNewAppModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header clearfix ">
+                    <button type="button" class="close" id="btnclose" data-dismiss="modal" aria-hidden="true">
+                        <i class="pg-close fs-14"></i>
+                    </button>
+                    <h4 class="p-b-5 semi-bold">Category</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group form-group-default">
+                                    <input type="hidden" id="hdncategoryid" />
+                                    <label>Category Name</label>
+                                    <input id="txtcategoryname" type="text" class="form-control required" placeholder="Category Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group form-group-default">
+                                    <label>Description</label>
+                                    <input id="txtdescription" type="text" class="form-control required" placeholder="Description">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="SaveCategory()" type="button" class="btn btn-primary  btn-cons">Add</button>
+                    <button type="button" data-dismiss="modal" class="btn btn-cons">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid container-fixed-lg">
+        <div class="panel panel-transparent">
+            @*<div class="panel-heading">
+                <div class="pull-right">
+                    <div class="col-xs-12">
+                        <button id="show-modal" class="btn btn-primary btn-cons">
+                            <i class="fa fa-plus"></i> Add Category
+                        </button>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>*@
+
+            <div class="container-fluid container-fixed-lg bg-white">
+                <div class="panel panel-transparent">
+                    <div class="panel-body  table-responsive">
+                        <table class="table table-hover demo-table-dynamic table-responsive-block" id="tblcalling">
+                            <thead>
+                                <tr role="row">
+                                    <th>Sr.</th>
+                                    <th>Calling Id</th>
+                                    <th>From User</th>
+                                    <th>To User</th>
+                                    <th>Amount</th>
+                                    <th>Datetime 1</th>
+                                    <th>Datetime 2</th>
+                                    <th>Datetime 3</th>
+                                    <th>Accept Datetime</th>
+                                    <th>Is Accept</th>
+                                    <th>Is Reject</th>
+                                    <th>Reject Note</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function Clear() {
+        $("#hdncategoryid").val('');
+        $('#txtcategoryname').val('');
+        $("#txtdescription").val('');
+        $('.required').each(function () {
+            $(this).removeClass("has-error")
+        });
+    }
+
+    function ActiveDeActiveCategory(CategoryId,Status) {
+        var text = "Record will be " + Status+".";
+        var isValid = true;
+        swal({
+            title: "Are you sure?",
+            text: text,
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#19bb9b",
+            confirmButtonText: "Yes",
+            cancelButtonText: "No",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+                    if (isValid) {
+                        var jsonData = {
+                            Id: CategoryId
+                        };
+                        $.ajax({
+                            async: false,
+                            type: "POST",
+                            url: '@Url.Action("ActiveDeActiveCategory", "Master")',
+                            data: JSON.stringify(jsonData),
+                            contentType: 'application/json; charset=utf-8'
+                        }).done(function (data) {
+                            if (data.Status == true) {
+                                text = "Record is Active Now.";
+                            }
+                            else {
+                                text = "Record is inActive Now.";
+                            }
+                            Clear();
+                        })
+                    }
+                    display();
+                    SweetSaveSuccess(text)
+
+                } else {
+                    SweetCancelSuccess('Cancelled.')
+                }
+            });
+    }
+
+
+
+    function SaveCategory() {
+        var isValid = true;
+        $('.required').each(function () {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).parent().addClass("has-error")
+            }
+            else {
+                $(this).parent().removeClass("has-error")
+            }
+        });
+        if (isValid) {
+            var jsonData = {
+                Id: $("#hdncategoryid").val(),
+                Name: $("#txtcategoryname").val(),
+                Description: $('#txtdescription').val(),
+            };
+
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("SaveCategory", "Master")',
+                data: JSON.stringify(jsonData),
+                contentType: 'application/json; charset=utf-8'
+            }).done(function (data) {
+                if (data != '' || data !== null) {
+                    if (data.Status == "Exists") {
+                        alert('Category name already exists.')
+                    }
+                    else if (data.Status == "Update") {
+                        Clear();
+                        SweetUpdateSuccess();
+                        display();
+                    }
+                    else if (data.Status == "Insert") {
+                        Clear();
+                        SweetUpdateSuccess();
+                        display();
+                    }
+                }
+            }).error(function (jqXHR, textStatus, errorThrown) {
+                alert(errorThrown);
+            });
+        }
+        else {
+        }
+    }
+
+
+    $(document).ready(function () {
+      display();
+            })
+
+    function EditCategory(CategoryId, Status) {
+        var isValid = true;
+        if (isValid) {
+            var jsonData = {
+                Id: CategoryId
+            };
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("EditCategory", "Master")',
+                data: JSON.stringify(jsonData),
+                contentType: 'application/json; charset=utf-8'
+            }).done(function (data) {
+                if (data != null) {
+                    $('#addNewAppModal').modal('show');
+                    if (Status == 'view') {
+                        $("#lblcountrycode").text(data.CountryCode)
+                        $('#lblcountryname').text(data.Name);
+                        $('#txtdescription').text(data.Description);
+                    }
+                    else {
+                        $("#hdncategoryid").val(data.Id)
+                        $('#txtcategoryname').val(data.Name);
+                        $('#txtdescription').val(data.Description);
+                        if (data.IsActive == true) {
+                            $('#chkIsActive').prop('checked', true);
+                        }
+                        else {
+                            $('#chkIsActive').prop('checked', false);
+                        }
+                    }
+                }
+            })
+        }
+    }
+
+
+    function display() {
+        var oTable = $('#tblcalling').DataTable({
+            "oLanguage": {
+                "sProcessing": "<img src='../Content/images/spinner.GIF' style='margin: 0 auto;display: block;' />",
+                  "sSearch": '<i class="searchBtn fa fa-search"></i>',
+                searchPlaceholder: "Search"
+            },
+            "iDisplayLength": 100,
+            "bLengthChange": true,
+            "bSort": false,
+            "bDestroy": true,
+            "sEmptyTable": "Loading data from server",
+            "searching": true,
+            "paging": true,
+            "processing": true,
+            "serverSide": true,
+            "sAjaxSource": '@Url.Action("GetAllCalling", "Master")',
+            "fnServerData": function (sSource, aoData, fnCallback) {
+                $.ajax({
+                    "dataType": 'json',
+                    "type": "POST",
+                    "url": sSource,
+                    "data": aoData,
+                    "success": fnCallback
+                });
+            },
+            "columns": [
+                {
+                    "sWidth": "10%",
+                    "data": "id",
+                    render: function (data, type, row, meta) {
+                        return meta.row + meta.settings._iDisplayStart + 1;
+                    }
+                },
+                { "bVisible": false },
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                { "sWidth": "10%",},
+                //{
+
+                //    "render": function (data, type, row, meta) {
+                //        var str = "";
+                //        if (row[3] == "Active") {
+
+
+                //            str = '<div class="btn-group"><a href="javascript:void(0)" title="InActive" onclick="ActiveDeActiveCategory(' + row[1] + ',\'InActive\')" class="btn "><i class="fa fa-circle-o text-muted"></i></a> '
+                //        }
+                //        else {
+                //            str = '<div class="btn-group"><a href="javascript:void(0)" title="Active" onclick="ActiveDeActiveCategory(' + row[1] + ',\'Active\')" class="btn "><i class="fa fa-circle text-success"></i></a> '
+                //        }
+                //        str = str + ' <a href="javascript:void(0)"  title="Edit" onclick="EditCategory(' + row[1] + ')" class="btn  "><i class="fa fa-edit"></i></a></div>'
+
+                //        //str = str + '<a href="javascript:void(0)" onclick="ActiveDeActiveCountry(' + row[1] + ',\'InActive\')" class="btn btn-cons">Delete</a>'
+                //        return str;
+                //    }
+                //},
+            ],
+          });
+      }
+
+</script>

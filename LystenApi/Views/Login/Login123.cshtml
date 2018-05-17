@@ -1,0 +1,918 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Siyana Textile</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/NewIndex/x/favicon.png">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/font-awesome.min.css">
+    <!-- aos CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/aos.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/bootstrap.min.css">
+    <!-- venobox CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/venobox/venobox.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/swiper.min.css">
+    <!-- OWL-Carousel CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/simpletextrotator.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/main.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/responsive.css">
+    <!-- Color Scheme -->
+    <link rel="stylesheet" href="~/assets/NewIndex/css/colors/default.css">
+    <script src="~/assets/NewIndex/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        .has-error {
+            border-bottom: 1px solid red !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id='preloader'>
+        <div class='loader'>
+            <img src="~/assets/NewIndex/img/loader.svg" width="80" alt="">
+        </div>
+    </div><!-- Preloader -->
+    <header id="home" class="header_area">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="nav-btn navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="brand"><img src="~/assets/NewIndex/img/logo.png" class="img-responsive" ></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav nav-menu">
+                        <li class="active"><a data-scroll href="#home">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a data-scroll href="#overview">Overview</a></li>
+                        <li><a data-scroll href="#features">Features</a></li>
+                        <li><a data-scroll href="#screenshots">ScreenShots</a></li>
+                        <li><a data-scroll href="#pricing">Pricing</a></li>
+                        <li><a data-scroll href="#reviews">Reviews</a></li>
+                        <li><a data-scroll href="#subscribe">Sign Up</a></li>
+                    </ul>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav><!-- Navigation Bar -->
+    </header> <!-- Header -->
+    <section class="hero_area">
+        <div id="particles-js"></div>
+        <div class="hero_inner">
+            <div class="table-cell">
+                <div class="hero_content">
+                    <h1 data-aos="zoom-in" class="big_title">A Perfect Landing Page To<br> Your App <span class="rotate">Showcase, Marketing, Promotion</span></h1>
+                    <h2 data-aos="zoom-in" class="sub_title">Get Your App Landing Page Designed and Ready To Go</h2>
+                    <div data-aos="zoom-in" data-aos-delay="300" class="btn_group">
+                        <!--<a href="#" class="lg_btn">App Store <i class="fa fa-apple"></i></a>-->
+                        <a href="#" class="lg_btn">Play Store <i class="fa fa-android"></i></a>
+                    </div>
+                    <a data-scroll href="#overview" class="down_arrow arrow_animated"><img src="~/assets/NewIndex/img/scroll-down.png" alt="Scroll Down"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of Hero Section    -->
+    <section id="overview" class="overview_area padding">
+        <div class="container">
+            <div class="row section_heading pb-60">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title">Overview</h2>
+                        <span class="sec_no">1</span>
+                    </div>
+                    <p class="short_desc">Understanding Our Easy to Use Product!</p>
+                </div>
+            </div><!-- Section Heading -->
+            <div class="row promo_items">
+                <div class="col-sm-3">
+                    <div class="promo_item">
+                        <div data-aos="zoom-in" data-aos-delay="300" class="promo_icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h2>Fully Responsive</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consetur.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="promo_item">
+                        <div data-aos="zoom-in" data-aos-delay="300" class="promo_icon">
+                            <i class="fa fa-pencil"></i>
+                        </div>
+                        <h2>Easy to Customize</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consetur</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="promo_item">
+                        <div data-aos="zoom-in" data-aos-delay="300" class="promo_icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h2>Clean Code</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consetur</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="promo_item">
+                        <div data-aos="zoom-in" data-aos-delay="300" class="promo_icon">
+                            <i class="fa fa-th-large"></i>
+                        </div>
+                        <h2>Well Documented</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consetur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of Overview Section    -->
+    <section id="features" class="features_area padding">
+        <div class="container">
+            <div data-aos="zoom-in" data-aos-delay="800" class="iphone_moc"></div>
+            <div class="row section_heading feature_heading">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title">Features</h2>
+                        <span class="sec_no">2</span>
+                    </div>
+                    <p class="short_desc">Understanding Our Easy to Use Product!</p>
+                </div>
+            </div><!-- Section Heading -->
+            <div class="row feature_wrap">
+                <div data-aos="fade-right" data-aos-delay="800" class="col-md-3">
+                    <ul class="feature_content feature_left align-right">
+                        <li>
+                            <h2>Fast Connect</h2>
+                            <p>Lorem ipsum dolor sit ame consetur adipisicing elit. Voluptate, consetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <h2>Free Update</h2>
+                            <p>Lorem ipsum dolor sit ame consetur adipisicing elit. Voluptate, consetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <h2>60+ Themes</h2>
+                            <p>Lorem ipsum dolor sit ame consetur adipisicing elit. Voluptate, consetur adipisicing elit.</p>
+                        </li>
+                    </ul>
+                </div><!-- Left Features -->
+                <div data-aos="fade-left" data-aos-delay="800" class="col-md-3 col-md-offset-6">
+                    <ul class="feature_content feature_right align-left">
+                        <li>
+                            <h2>Clean Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <h2>54 Languages</h2>
+                            <p>Lorem ipsum dolor sit ame consetur adipisicing elit. Voluptate, consetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <h2>6000+ Supporters</h2>
+                            <p>Lorem ipsum dolor sit ame consetur adipisicing elit. Voluptate, consetur adipisicing elit.</p>
+                        </li>
+                    </ul>
+                </div><!-- Right Features -->
+            </div>
+        </div>
+    </section>
+    <!--   End of Features Section    -->
+    <section class="how_it_works_area padding">
+        <div class="container">
+            <div class="row section_heading pb-60">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title">How It Works</h2>
+                        <span class="sec_no">3</span>
+                    </div>
+                    <p class="short_desc">Understanding Our Easy to Use Product!</p>
+                </div>
+            </div><!-- Section Heading -->
+            <div class="row works_wrap">
+                <div data-aos="zoom-out-down" data-aos-duration="800" class="iphone_moc_2"></div>
+                <div data-aos="fade-right" class="col-md-4">
+                    <div class="works_item left_item align-right">
+                        <span class="circle_style"></span>
+                        <h2>Farmer Basis</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic eveniet molestias ipsam itaque vitae?</p>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="col-md-4 col-md-offset-4">
+                    <div class="works_item right_item align-left">
+                        <span class="circle_style"></span>
+                        <h2>Ongoing Service</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere hic eveniet molestias ipsam itaque vitae?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of How It Work Section    -->
+
+    <section id="screenshots" class="screenshot_area padding">
+        <div class="container">
+            <div class="row section_heading pb-60">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title">App Screenshots</h2>
+                        <span class="sec_no">4</span>
+                    </div>
+                    <p class="short_desc">Understanding Our Easy to Use Product!</p>
+                </div>
+            </div><!-- Section Heading -->
+            <div class="row">
+                <div class="col-sx-12">
+                    <div class="screen_wrap">
+                        <div class="swiper-container screen_carousel">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="~/assets/NewIndex/img/screen-1.png" alt="App Screen">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="~/assets/NewIndex/img/screen-2.png" alt="App Screen">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="~/assets/NewIndex/img/screen-3.png" alt="App Screen">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="~/assets/NewIndex/img/screen-4.png" alt="App Screen">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="~/assets/NewIndex/img/screen-5.png" alt="App Screen">
+                                </div>
+                            </div>
+                            <!-- pagination -->
+                            <div class="screen-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of App Screenshots Section    -->
+
+    <section class="video_area padding">
+        <div class="container">
+            <div class="video_inner">
+                <a class="img_popup video_icon" data-type="youtube" data-autoplay="true" data-overlay="rgba(116,77,168,0.8)" href="https://www.youtube.com/watch?v=gbfQms3clr8"><i class="fa fa-play-circle"></i></a>
+                <h2><strong>WOW!</strong> The Best Application Ever!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    <!--   End of Video Section    -->
+
+    <section id="pricing" class="pricing_area padding">
+        <div class="container">
+            <div class="row section_heading pb-60">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title">Plans &amp; Pricing</h2>
+                        <span class="sec_no">5</span>
+                    </div>
+                    <p class="short_desc">Understanding Our Easy to Use Product!</p>
+                </div>
+            </div><!-- Section Heading -->
+            <div class="row pricing_wrap">
+                <ul class="pricing_items">
+                    <li data-aos="fade-up" data-aos-delay="100" class="col-sm-3">
+                        <div class="pricing_item">
+                            <div class="pricing_title">
+                                <h2>Basic</h2>
+                            </div>
+                            <div class="pricing_head">
+                                <div class="plan_price">
+                                    <div class="pricing_inner">
+                                        <span class="price">$10</span>
+                                        <span class="price_text">Per Month</span>
+                                    </div>
+                                </div>
+                                <span class="price_dist">Limited Time 10% Off!</span>
+                            </div>
+                            <ul class="plan_feature">
+                                <li>1 User</li>
+                                <li>5000 Views</li>
+                                <li>20 Projects</li>
+                                <li>5 Agent Per Account</li>
+                            </ul>
+                            <div class="pricing_footer">
+                                <a href="#subscribe" class="pricing_btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </li><!-- Table 1 -->
+                    <li data-aos="fade-up" data-aos-delay="200" class="col-sm-3">
+                        <div class="pricing_item">
+                            <div class="pricing_title">
+                                <h2>Personal</h2>
+                            </div>
+                            <div class="pricing_head">
+                                <div class="plan_price">
+                                    <div class="pricing_inner">
+                                        <span class="price">$15</span>
+                                        <span class="price_text">Per Month</span>
+                                    </div>
+                                </div>
+                                <span class="price_dist">Limited Time 10% Off!</span>
+                            </div>
+                            <ul class="plan_feature">
+                                <li>5 User</li>
+                                <li>8000 Views</li>
+                                <li>30 Projects</li>
+                                <li>6 Agent Per Account</li>
+                            </ul>
+                            <div class="pricing_footer">
+                                <a href="#subscribe" class="pricing_btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </li><!-- Table 2 -->
+                    <li data-aos="fade-up" data-aos-delay="300" class="col-sm-3">
+                        <div class="pricing_item">
+                            <div class="pricing_title">
+                                <h2>Premium</h2>
+                            </div>
+                            <div class="pricing_head">
+                                <div class="plan_price">
+                                    <div class="pricing_inner">
+                                        <span class="price">$25</span>
+                                        <span class="price_text">Per Month</span>
+                                    </div>
+                                </div>
+                                <span class="price_dist">Limited Time 10% Off!</span>
+                            </div>
+                            <ul class="plan_feature">
+                                <li>10 User</li>
+                                <li>15000 Views</li>
+                                <li>40 Projects</li>
+                                <li>10 Agent Per Account</li>
+                            </ul>
+                            <div class="pricing_footer">
+                                <a href="#subscribe" class="pricing_btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </li><!-- Table 3 -->
+                    <li data-aos="fade-up" data-aos-delay="400" class="col-sm-3">
+                        <div class="pricing_item">
+                            <div class="pricing_title">
+                                <h2>Ultimate</h2>
+                            </div>
+                            <div class="pricing_head">
+                                <div class="plan_price">
+                                    <div class="pricing_inner">
+                                        <span class="price">$85</span>
+                                        <span class="price_text">Per Month</span>
+                                    </div>
+                                </div>
+                                <span class="price_dist">Limited Time 10% Off!</span>
+                            </div>
+                            <ul class="plan_feature">
+                                <li>Unlimited User</li>
+                                <li>Unlimited Views</li>
+                                <li>Unlimited Projects</li>
+                                <li>Unlimited Agent Per Account</li>
+                            </ul>
+                            <div class="pricing_footer">
+                                <a href="#subscribe" class="pricing_btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </li><!-- Table 4 -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--   End of Pricing Section    -->
+
+    <section class="download_area padding">
+        <div class="container">
+            <div class="download_inner">
+                <h2>Download <span>Siyana Textile</span></h2>
+                <p>Download app to get special offer!</p>
+                <div class="btn_group">
+                    <!--<a href="#" class="lg_btn">App Store <i class="fa fa-apple"></i></a>-->
+                    <a href="#" class="lg_btn">Play Store <i class="fa fa-android"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of Download Section    -->
+
+    <section id="reviews" class="testimonial_area padding">
+        <div class="container">
+            <div class="row section_heading pb-60">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title">App Reviews</h2>
+                        <span class="sec_no">6</span>
+                    </div>
+                    <p class="short_desc">Here What Our Customer Have To Say!!</p>
+                </div>
+            </div><!-- Section Heading -->
+            <div class="row testi_wrap">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="swiper-container testi_carousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi_content">
+                                    <img src="~/assets/NewIndex/img/client.jpg" alt="Cl" class="thumbnail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolorum quam quos consectetur dolores, dolore voluptatem quibusdam, ullam, temporibus eum officia aperiam fugiat magnam, molestias assumenda soluta magni id. Eum deserunt ullam impedit! Sunt deleniti.</p>
+                                    <div class="client_meta">
+                                        <h4>Jenifer Lopez</h4>
+                                        <span>01 Jan, 2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi_content">
+                                    <img src="~/assets/NewIndex/img/client.jpg" alt="Cl" class="thumbnail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolorum quam quos consectetur dolores, dolore voluptatem quibusdam, ullam, temporibus eum officia aperiam fugiat magnam, molestias assumenda soluta magni id. Eum deserunt ullam impedit! Sunt deleniti.</p>
+                                    <div class="client_meta">
+                                        <h4>Jenifer Lopez</h4>
+                                        <span>01 Jan, 2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi_content">
+                                    <img src="~/assets/NewIndex/img/client.jpg" alt="Cl" class="thumbnail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolorum quam quos consectetur dolores, dolore voluptatem quibusdam, ullam, temporibus eum officia aperiam fugiat magnam, molestias assumenda soluta magni id. Eum deserunt ullam impedit! Sunt deleniti.</p>
+                                    <div class="client_meta">
+                                        <h4>Jenifer Lopez</h4>
+                                        <span>01 Jan, 2016</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination testi_bullet"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   End of Testimonial Section    -->
+
+    <footer id="subscribe" class="footer_area">
+        <div class="container">
+            <div class="row section_heading pb-60">
+                <div data-aos="fade-down" class="heading_inner">
+                    <div class="title_wrap">
+                        <h2 class="title text-white">Sign Up</h2>
+                        <span class="sec_no">7</span>
+                    </div>
+                    <p class="short_desc text-white">Get news deliverd directly to yur inbox!!</p>
+                </div>
+            </div><!-- Section Heading -->
+
+            @using (Html.BeginForm("Login", "Login", new { ReturnUrl = ViewBag.ReturnUrl }))
+            {
+                <div class="col-md-6 col-md-offset-3 login_portion login hidden  ">
+                    <div class="form-group col-md-12">
+                        @*<input type="text" placeholder="User Name" class="form-control">*@
+                        <input type="text" class="form-control required1" id="txtemail" autocomplete="off" placeholder="User Name" name="Email">
+                    </div>
+                    <div class="form-group col-md-12">
+                        @*<input type="text" placeholder="Password" class="form-control">*@
+                        <input type="password" class="form-control required1" autocomplete="off" placeholder="Password" name="Password" id="txtpassword">
+                    </div>
+                    <a href="javascript:void(0);">  <p class="short_desc dnt_hav_account text-white m_t_20 col-md-7">Dont Have an Account?</p></a>
+                    <a href="javascript:void(0);">  <p class="short_desc forgot_pwd_btn text-white m_t_20 col-md-5  text-right">Forgot Password?</p></a>
+                    <div class="form-group m_t_20 col-md-12 ">
+                        @*<a  onclick="return CheckLogin()" href="#" class="log_btn">Sign in</a>*@
+
+                        <button id="btnLogin" onclick="return CheckLogin()" type="submit" class="log_btn">
+                            Sign in
+                        </button>
+
+                    </div>
+                </div>
+            }
+            <div class="col-md-8 col-md-offset-2 login_portion reg ">
+                <div class="form-group col-md-4">
+                    @*<input type="text" placeholder="User Name" class="form-control">*@
+                    <input type="text" id="txtEmail" class="form-control custom required" value="" placeholder="Email Address">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="password" id="txtPassword" class="form-control custom required" value="" placeholder="Password">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="text" placeholder="Company Name" class="form-control custom required">
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="hidden" id="hdncountryid"/>
+                    <input type="text" id="txtcountryname" class="form-control custom required" autocomplete="off"  placeholder="Countrye Name"/>
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="hidden" id="hdnstateid"/>
+                    <input type="text" id="txtstatename" class="form-control custom required" autocomplete="off" placeholder="State Name"/>
+                </div>
+                <div class="form-group col-md-4">
+                    <input type="hidden" id="hdncityid"/>
+                    <input type="text" id="txtcityname" class="form-control custom required" autocomplete="off"  placeholder="City Name"/>
+                </div>
+                <div class="form-group col-md-12">
+                    <textarea id="txtAddress" class="form-control  required" rows="3" placeholder="Address"></textarea>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" id="txtPhone"  placeholder="Phone" class="form-control custom" value="">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" id="txtMobile" placeholder="Mobile" class="form-control custom" value="">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" id="txtDisplayname"  placeholder="Display Name"  class="form-control custom required" value="">
+                </div>
+                @*<div class="form-group col-md-6">
+                    <input type="text" id="txtCompany" class="form-control custom required" value="">
+                </div>*@
+                <div class="form-group col-md-6">
+                    <input type="text" id="txtwebsite" placeholder="Company Web site" class="form-control custom required" value="">
+                </div>
+                <a href="javascript:void(0);">  <p class="col-md-12 already_account short_desc text-white m_t_20">Already Have an Account?</p></a>
+                <div class="form-group m_t_20 col-md-12 ">
+                    @*<a href="#" class="log_btn">Sign up</a>*@
+                    <a id="btnSave" href="javascript:void(0);" onclick="SaveUser('Save')" class="log_btn">Sign up</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4 login_portion forgot hidden">
+                <div class="form-group col-md-12">
+                    @*<input type="text" placeholder="Email Address" class="form-control">*@
+                    <input type="text" class="form-control" id="txtforgotemail" placeholder="Email Address">
+                </div>
+
+                <a href="javascript:void(0);">  <p class="col-md-12 already_account short_desc text-white m_t_20">Back To Login</p></a>
+                <div class="form-group m_t_20 col-md-12 ">
+                    @*<a href="#" class="log_btn">Submit</a>*@
+                    <input type="button" id="btnsubmitforgot" class="log_btn" value="Submit" onclick="return SendForgotaPassword()" />
+                </div>
+
+            </div>
+            <ul class="social_link col-md-12">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+            <div class="copyright col-md-12">
+                <p>Copyright&copy; @DateTime.Now.Year Siyana Info Solutions. Design By  Siyana Info Solutions</p>
+            </div>
+        </div>
+    </footer>
+    <!--   End of Footer Section    -->
+    <!--  Scroll To Top  -->
+    <a data-scroll href="#home" class="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- jQuery Lib -->
+
+    <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"><\/script>')</script>
+    <!-- Bootstrap JS -->
+    <script src="~/assets/NewIndex/js/vendor/bootstrap.min.js"></script>
+    <!-- Smooth Scroll JS -->
+    <script src="~/assets/NewIndex/js/vendor/smooth-scroll.min.js"></script>
+    <!-- ajaxchimp JS -->
+    <script src="~/assets/NewIndex/js/vendor/jquery.ajaxchimp.min.js"></script>
+    <!-- venobox JS -->
+    <script src="~/assets/NewIndex/js/vendor/venobox.min.js"></script>
+    <!-- swiper JS -->
+    <script src="~/assets/NewIndex/js/vendor/swiper.min.js"></script>
+    <!-- aos JS -->
+    <script src="~/assets/NewIndex/js/vendor/aos.js"></script>
+    <!-- Simple Text Rotator JS -->
+    <script src="~/assets/NewIndex/js/vendor/jquery.simple-text-rotator.js"></script>
+    <!-- Particle JS -->
+    <script src="~/assets/NewIndex/js/vendor/particles.min.js"></script>
+    <script src="~/assets/NewIndex/js/vendor/app.js"></script>
+
+    <!-- Main JS -->
+    <script src="~/assets/NewIndex/js/main.js"></script>
+    <script type="text/javascript" src="http://cdn.rawgit.com/bassjobsen/Bootstrap-3-Typeahead/master/bootstrap3-typeahead.min.js"></script>
+    <script>
+        $(document).on("click", ".dnt_hav_account", function () {
+            $(".login_portion.reg").removeClass("hidden");
+            $(".login_portion.login").addClass("hidden"); $(".login_portion.forgot").addClass("hidden");
+        });
+        $(document).on("click", ".already_account", function () {
+            $(".login_portion.reg").addClass("hidden");
+            $(".login_portion.login").removeClass("hidden");
+            $(".login_portion.forgot").addClass("hidden");
+        });
+        $(document).on("click", ".forgot_pwd_btn", function () {
+            $(".login_portion.login").addClass("hidden");
+            $(".login_portion.reg").addClass("hidden");
+            $(".login_portion.forgot").removeClass("hidden");
+        });
+    </script>
+</body>
+<!-- Mirrored from cracktheme.com/templates/lexus/v1/particle/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Jul 2017 04:53:32 GMT -->
+</html>
+<script>
+    $(document).ready(function () {
+           if ('@HttpContext.Current.Request.Cookies["UserName"].Value' != '0' && '@HttpContext.Current.Request.Cookies["Password"].Value' != '0') {
+               if ('@HttpContext.Current.Request.Cookies["UserName"].Value' != '0' && '@HttpContext.Current.Request.Cookies["Password"].Value' != '0') {
+                   $('#txtemail').val('@Request.Cookies["UserName"].Value');
+                   $('#txtpassword').val('@Request.Cookies["Password"].Value');
+               }  }
+    })
+
+    function CheckLogin() {
+        var isvalid = true;
+        $('.required1').each(function () {
+            if ($.trim($(this).val()) == '') {
+                isvalid = false;
+                $(this).addClass("has-error")
+            }
+            else {
+                $(this).removeClass("has-error")
+            }
+        });
+        if (!isValidEmailAddress($("#txtemail").val())) {
+            $('#txtemail').addClass("has-error")
+            isvalid = false;
+        }
+        else {
+            $('#txtemail').removeClass("has-error")
+        }
+        if (isvalid) {
+            return true
+        }
+        return false
+    }
+    function showForgotPass() {
+        $('#login').addClass('hide')
+        $('#forgot').removeClass('hide')
+    }
+    function hideForgotPass() {
+        $('#login').removeClass('hide')
+        $('#forgot').addClass('hide')
+    }
+    function isValidEmailAddress(emailAddress) {
+        var pattern = /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i;
+        return pattern.test(emailAddress);
+    };
+       function SendForgotaPassword() {
+            var isValid = true;
+
+            if ($.trim($('#txtforgotemail').val()) == '') {
+                isValid = false;
+                $('#txtforgotemail').addClass("has-error")
+            }
+            else {
+                $('#txtforgotemail').removeClass("has-error")
+            }
+            if (!isValidEmailAddress($("#txtforgotemail").val())) {
+                $('#txtforgotemail').addClass("has-error")
+                isValid = false;
+            }
+            else {
+                $('#txtforgotemail').removeClass("has-error")
+            }
+            if (isValid) {
+                var jsonData = {
+                    EmailId: $('#txtforgotemail').val()
+                };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("ForgotPassword", "Login")',
+                    data: JSON.stringify(jsonData),
+                    contentType: 'application/json; charset=utf-8'
+                }).done(function (data) {
+                    if (data.data != 0) {
+                        $('#txtemailid').val('');
+                        alert('Password Sent Successfully.')
+                        toastr.success('Password Sent Successfully.')
+                    } else {
+                        alert('Email Id does not exists.')
+                        toastr.error('Email Id does not exists.')
+                    }
+                })
+            }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function SweetUpdateSuccess(status) {
+        swal({
+            title: "Success!",
+            text: "Your row has been Updated.",
+            type: "success",
+            timer: 1000,
+            showConfirmButton: false, animation: false
+        });
+        if (status != 'new')
+            $('#myModal2').modal('toggle');
+    }
+    function SaveUser(Status) {
+        var isValid = true;
+        $('.required').each(function () {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).addClass("has-error")
+            }
+            else {
+                $(this).removeClass("has-error")
+            }
+        });
+        if (isValid) {
+            var jsonData = {
+                Id: "0",
+                Email: $("#txtEmail").val(),
+                Password: $("#txtPassword").val(),
+                Address: $("#txtAddress").val(),
+                Country: $("#hdncountryid").val(),
+                State: $("#hdnstateid").val(),
+                City: $("#hdncityid").val(),
+                Phone: $("#txtPhone").val(),
+                Mobile: $("#txtMobile").val(),
+                Displayname: $("#txtDisplayname").val(),
+                Allmodids: "",
+                Companyname: $("#txtCompany").val(),
+                Website: $("#txtWebsite").val(),
+            };
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Signupuser", "User")',
+                data: JSON.stringify(jsonData),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data != '' || data !== null) {
+                        if (data.Status == "Exists") {
+                        }
+                        else if (data.Status == "Update") {
+                            Clear();
+                        }
+                        else if (data.Status == "Insert") {
+                            Clear();
+                        }
+                        SweetUpdateSuccess(Status);
+                    }
+                },
+                error: function (data) {
+                    alert('Error');
+                    //alert(errorThrown);
+                }
+            });
+        }
+        else {
+        }
+    }
+    function Clear() {
+        $("#txtEmail").val('');
+        $("#txtPassword").val('');
+        $("#txtAddress").val('');
+        $("#txtcountryname").val('');
+        $("#hdncountryid").val('');
+        $("#txtstatename").val('');
+        $("#hdnstateid").val('');
+        $("#txtcityname").val('');
+        $("#hdncityid").val('');
+        $("#txtPhone").val('');
+        $("#txtMobile").val('');
+        $("#txtDisplayname").val('');
+        $("#txtCompany").val('');
+        $("#txtWebsite").val('');
+        $("#btnSave").text('Save');
+        $("#txtEmail").removeAttr("readonly");
+        $('.required').each(function () {
+            $(this).removeClass("has-error")
+        });
+
+    }
+    $('#txtcountryname').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+        , source: function (request, response) {
+            $.ajax({
+                url: '@Url.Action("GetCountry", "Master")',
+                data: "{}",
+                dataType: "json",
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    items = [];
+                    map = {};
+                    $.each(data, function (i, item) {
+                        var id = item.CountryId;
+                        var name = item.CountryName;
+                        map[name] = { id: id, name: name };
+                        items.push(name);
+                    });
+                    response(items);
+                    $(".dropdown-menu").css("height", "auto");
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        },
+        updater: function (item) {
+            $('[id*=hdncountryid]').val(map[item].id);
+            return item;
+        }
+    });
+    $('#txtstatename').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+        , source: function (request, response) {
+            if ($('#hdncountryid').val() != '' && $('#hdncountryid').val() != 0) {
+                var json = {
+                    CountryId: $('#hdncountryid').val()
+                };
+                $.ajax({
+                    url: '@Url.Action("GetState", "Master")',
+                    data: JSON.stringify(json),
+                    dataType: "json",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        items = [];
+                        map = {};
+                        $.each(data, function (i, item) {
+                            var id = item.StateId;
+                            var name = item.StateName;
+                            map[name] = { id: id, name: name };
+                            items.push(name);
+                        });
+                        response(items);
+                        $(".dropdown-menu").css("height", "auto");
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            }
+        },
+        updater: function (item) {
+            $('[id*=hdnstateid]').val(map[item].id);
+            return item;
+        }
+    });
+    $('#txtcityname').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+        , source: function (request, response) {
+            if ($('#hdnstateid').val() != '' && $('#hdnstateid').val() != 0) {
+                var json = {
+                    CountryId: $('#hdncountryid').val(),
+                    StateId: $('#hdnstateid').val()
+                };
+                $.ajax({
+                    url: '@Url.Action("GetCity", "Master")',
+                    data: JSON.stringify(json),
+                    dataType: "json",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        items = [];
+                        map = {};
+                        $.each(data, function (i, item) {
+                            var id = item.CityId;
+                            var name = item.CityName;
+                            map[name] = { id: id, name: name };
+                            items.push(name);
+                        });
+                        response(items);
+                        $(".dropdown-menu").css("height", "auto");
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            }
+        },
+        updater: function (item) {
+            $('[id*=hdncityid]').val(map[item].id);
+            return item;
+        }
+    });
+</script>

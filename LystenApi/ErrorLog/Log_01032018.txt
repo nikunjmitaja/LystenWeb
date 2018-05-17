@@ -1,0 +1,100 @@
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:42:09 PM
+
+Inner Message: 
+Error Message: 3/1/2018 5:30:49 PM
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:42:09 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:42:19 PM
+
+Inner Message: 
+Error Message: 15
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:42:19 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:42:19 PM
+
+Inner Message: 
+Error Message: Exception of type 'System.Exception' was thrown.
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:42:19 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:42:31 PM
+
+Inner Message: 
+Error Message: 3/1/2018 5:30:49 PM
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:42:31 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:42:43 PM
+
+Inner Message: 
+Error Message: 15
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:42:43 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:42:43 PM
+
+Inner Message: 
+Error Message: Exception of type 'System.Exception' was thrown.
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:42:43 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:44:26 PM
+
+Inner Message: 
+Error Message: 3/1/2018 5:30:49 PM
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:44:26 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 5:53:56 PM
+
+Inner Message: 
+Error Message: 3/1/2018 5:30:49 PM
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 5:53:56 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 6:07:09 PM
+
+Inner Message: 
+Error Message: 3/1/2018 5:30:49 PM - Unspecified
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 6:07:09 PM
+
+
+=============Error Logging ===========
+-------------------Start------------------- 3/1/2018 6:07:10 PM
+
+Inner Message: 
+Error Message: 3/1/2018 5:30:49 PM
+Stack Trace: 
+
+-------------------End------------------- 3/1/2018 6:07:10 PM
+

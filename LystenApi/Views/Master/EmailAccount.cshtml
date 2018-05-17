@@ -1,0 +1,300 @@
+﻿@{
+    ViewBag.Title = "Email Account";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid container-fixed-lg">
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#" class="active">@ViewBag.Title</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container-fluid container-fixed-lg bg-white">
+        <div class="panel panel-transparent">
+            <div class="panel-body">
+                <table class="table table-hover demo-table-dynamic table-responsive-block" id="tblemailaccount">
+                    <thead>
+                        <tr>
+                            <th>
+                                Sr
+                            </th>
+                            <th style="display:none;">
+                                Account Id
+                            </th>
+                            <th>
+                                Email Address
+                            </th>
+                            <th>
+                                Password
+                            </th>
+                            <th>
+                                SMTP Relay
+                            </th>
+                            <th>
+                                Port
+                            </th>
+                            <th>
+                                Enable SSL
+                            </th>
+                            <th>
+                                Edit
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-green hide p15" id="lblmessage"></div>
+
+    <div id="myModal2" class="modal_add modal" role="dialog">
+        <div class="modal-dialog" style="margin: 80px auto;margin-bottom: 0px">
+            <!-- Modal content-->
+            <div class="container-fluid container-fixed-lg bg-white">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-header clearfix ">
+                            <button onclick="Clear()" type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="p-b-5"><span class="semi-bold">Email</span>Account</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="panel panel-transparent">
+                                        <div class="panel-body">
+                                            <div class="form-group form-group-default">
+                                                <label>Email Address</label>
+                                                <div class="controls">
+                                                    <input type="hidden" id="hdnEmailAccountId" />
+                                                    <input type="text" placeholder="Email" class="form-control required" id="txtemailaddress" autocomplete="off" name="Email" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-default">
+                                                <label>Password</label>
+                                                <div class="controls">
+                                                    <input type="text" placeholder="Password" class="form-control required" autocomplete="off" name="Password" id="txtpassword" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-default">
+                                                <label>SMTP Relay</label>
+                                                <div class="controls">
+                                                    <input type="text" placeholder="SMTP Relay" class="form-control required" id="txtsmtprelay" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-default">
+                                                <label>Port</label>
+                                                <div class="controls">
+                                                    <input type="text" placeholder="Port" class="form-control required" id="txtport" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group ">
+                                                <div class="col-md-12 no-padding">
+                                                    <div class="checkbox ">
+                                                        <input type="checkbox" id="chkssl" name="RememberMe">
+                                                        <label for="checkbox1">Keep Me Signed in</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="modal-footer">
+                        <a href="#" id="btnsave" onclick="saveRow()" class="btn btn-primary btn-cons">Update</a>
+                        <button type="button" data-dismiss="modal" class="btn btn-cons">Close</button>
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="row">
+                    <div class="form-group col-md-10 col-md-offset-1 m_top_20">
+                        <div class="col-md-12 p0">Email Address :</div>
+                        <input type="hidden" id="hdnEmailAccountId" />
+                        <input type="text" id="txtemailaddress" placeholder="Email Address" class="form-control required" />
+                    </div>
+                    <div class="form-group col-md-10 col-md-offset-1 m_top_20">
+                        <div class="col-md-12 p0"> Password :</div>
+                        <input type="text" id="txtpassword" placeholder="Password" class="form-control required" />
+                    </div>
+                    <div class="form-group col-md-10 col-md-offset-1 m_top_20">
+                        <div class="col-md-12 p0">SMTP Relay :</div>
+                        <input type="text" id="txtsmtprelay" placeholder="SMTP Relay" class="form-control required" />
+                    </div>
+                    <div class="form-group col-md-10 col-md-offset-1 m_top_20">
+                        <div class="col-md-12 p0">Port :</div>
+                        <input type="text" placeholder="Port" id="txtport" class="form-control required" />
+                    </div>
+                    <div class="form-group col-md-10 col-md-offset-1 m_top_20">
+                        <div class="col-md-12 p0">EnableSSL :</div>
+                        <input type="checkbox" id="chkssl" class="form-control required" />
+                    </div>
+                    <div class="form-group col-md-offset-4 m_top_20 p0 col-md-8">
+                        <div class="col-xs-6">
+                            <a href="javascript:void(0);" id="btnsave" onclick="saveRow()" class="btn btn-primary custom btn-block">Save</a>
+                        </div>
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    function Clear() {
+        $('#divcontrol1').addClass('hide')
+        $('#divcontrol2').removeClass('hide')
+        $('#btnsave').text("Save");
+    }
+
+    function saveRow() {
+        var isValid = true;
+        $('.required').each(function () {
+            if ($.trim($(this).val()) == '') {
+                isValid = false;
+                $(this).addClass("has-error")
+            }
+            else {
+                $(this).removeClass("has-error")
+            }
+        });
+        if (isValid) {
+        var jsonData = {
+            Id: $('#hdnEmailAccountId').val(),
+            EmailId: $('#txtemailaddress').val(),
+            Password: $('#txtpassword').val(),
+            SMTPRelay: $('#txtsmtprelay').val(),
+            Port: $('#txtport').val(),
+            EnableSSL: $('#chkssl').is(":checked", true),
+        };
+        $.ajax({
+            type: "POST",
+            url:'@Url.Action("SaveEmailAccount", "Master")',
+            data: JSON.stringify(jsonData),
+            contentType: 'application/json; charset=utf-8'
+        }).done(function (data) {
+            if (data.Status == "Exists") {
+            }
+            else if (data.Status == "Update") {
+            }
+            else if (data.Status == "Insert") {
+            }
+            Clear();
+            display();
+            SweetUpdateSuccess();
+            })
+        }
+    }
+
+
+    function EditEmailAccount(AccountId) {
+                var isValid = true;
+                if (isValid) {
+                    var jsonData = {
+                        Id: AccountId
+                    };
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("EditEmailAccount", "Master")',
+                        data: JSON.stringify(jsonData),
+                        contentType: 'application/json; charset=utf-8'
+                    }).done(function (data) {
+                        if (data != null) {
+                            $('#hdnEmailAccountId').val(data.Id);
+                            $('#txtemailaddress').val(data.EmailId);
+                             $('#txtpassword').val(data.Password);
+                             $('#txtsmtprelay').val(data.SMTPRelay);
+                                 $('#btnsave').text("Update");
+                             $('#txtport').val(data.Port);
+                             if (data.EnableSSL == true) {
+                                 $('#chkssl').prop("checked", true);
+
+                             }
+                             else {
+                                 $('#chkssl').prop("checked",false);
+                             }
+                        }
+                    })
+                }
+            }
+
+
+
+    $(document).ready(function () {
+        display();
+    })
+    function display() {
+        var oTable = $('#tblemailaccount').DataTable({
+            language: {
+                "sProcessing": 'Processing...',
+                "sSearch": '<i class="searchBtn fa fa-search"></i>',
+                searchPlaceholder: "Search"
+            },
+            "iDisplayLength": 10,
+            "bLengthChange": false,
+            "bInfo": false,
+            "bSort": false,
+            "bDestroy": true,
+            "sEmptyTable": "Loading data from server",
+            "searching": true,
+            "paging": true,
+            "processing": true,
+            "serverSide": true,
+            "sAjaxSource": '@Url.Action("GetEmailAccount", "Master")',
+            "fnServerData": function (sSource, aoData, fnCallback) {
+                $.ajax({
+                    "dataType": 'json',
+                    "type": "POST",
+                    "url": sSource,
+                    "data": aoData,
+                    "success": fnCallback
+                });
+            },
+            "columns": [
+                {
+                    "data": "id",
+                    
+                    "width":"30px",
+                    render: function (data, type, row, meta) {
+                        return meta.row + meta.settings._iDisplayStart + 1;
+                    }
+                },
+                { "bVisible": false },
+                {  },
+                {  },
+                { },
+                { },
+                { "width":"130px"  },
+                {
+                    "render": function (data, type, row, meta) {
+                        //return '<center><a href="javascript:void(0);" title="Edit User" onclick="EditEmailAccount(' + row[1] + ')"><i class="glyphicon glyphicon-edit" ></i></a></center>'
+                        return '<center><a href= "javascript:void(0)" onclick="EditEmailAccount(' + row[1] + ')"  class="btn btn-primary  " data-toggle="modal" data-target="#myModal2"><i class="fa fa-edit"></i></a ></center>'
+                    }
+                },
+            ],
+            fnInitComplete: function () {
+                if ($(this).find('td').eq(0).text() == 'No data available in table') {
+                    $(this).parent().parent().hide();
+                    $('#lblmessage').removeClass('hide');
+                    $('#lblmessage').html('<h3 class="text-green">No Policy Added</h3> <h3>Please add Policy by pressing Add Policy</h3>');
+                }
+                else {
+                    $(this).parent().parent().show();
+                    $('#lblmessage').addClass('hide');
+                    $('#lblmessage').html('');
+                }
+            }
+        });
+    }
+</script>
